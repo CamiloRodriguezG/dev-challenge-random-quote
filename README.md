@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://awesome-shannon-74e7f6.netlify.app">
       Solution
     </a>
     <span> | </span>
@@ -34,7 +34,7 @@
 
 ![screenshot](https://github.com/CamiloRodriguezG/dev-challenge-random-quote/blob/main/preview.jpg)
 
-- You can see the page rigth here
+- You can see the page rigth here https://awesome-shannon-74e7f6.netlify.app
 - I've already made an random quote generator page [this](https://camilorodriguezg.github.io/frases-random/) but i liked make this too :)
 - I think that with this page I've learned more about fetching an API, I have another websites fetching API's though 
 
@@ -62,7 +62,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/CamiloRodriguezG/dev-challenge-random-quote
 
 # Install dependencies
 $ npm install
