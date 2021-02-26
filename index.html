@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link 
+      rel="stylesheet" 
+      href="src/index.css"
+    />
+
+    <link 
+      rel="stylesheet" 
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
+      crossorigin="anonymous"
+    />
+
+    <title>Devchallenges - Random quote generator</title>
+
+  </head>
+  <body>
+    <button class="back-button" onclick="back()">
+      <span>come back</span>
+      <i class="fas fa-undo"></i>
+    </button>
+    <button class="change-quote" onclick="getRandomQuote()">
+      <span>random</span>
+      <i class="fas fa-random"></i>
+    </button>
+    <div class="main-container">
+      <div class="quote">
+        Quote here
+      </div>
+      <button class="author-button" onclick="getAuthorCuotes()">
+        <div>
+          <p>Author</p>
+          <span>Quote genre</span>
+        </div>
+        <i class="fas fa-arrow-right"></i>
+      </button>
+    </div>
+    <div class="attribution">
+      <p>created by 
+        <a href="https://devchallenges.io/portfolio/CamiloRodriguezG">
+          CamiloRodriguezG
+        </a>
+         - devChallenges.io
+      </p>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
